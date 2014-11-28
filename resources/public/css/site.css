@@ -46,9 +46,30 @@ a:hover {
     display: table-cell;
     width: 64px;
     height: 64px;
-    font-size: 48px;
     border: 1px solid #666;
     font-weight: bold;
+
+}
+
+.board .board-row .board-cell .checker {
+    margin: 6px 0 0 8px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px #333;
+}
+
+.board .board-row .board-cell .checker:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 4px #333;
+}
+
+.board .board-row .board-cell .checker-white {
+    background-color: red;
+}
+
+.board .board-row .board-cell .checker-black {
+    background-color: black;
 }
 
 .board .board-row .board-cell-white {
