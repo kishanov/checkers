@@ -77,5 +77,6 @@ a:hover {
 }
 
 .board .board-row .board-cell-black {
+    cursor: pointer;
     background-color: sienna;
 }
